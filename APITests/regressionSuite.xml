@@ -2,10 +2,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="Regression Suite">
-    <test name="ChallengeUI">
+    <test name="ChallengeAPI">
         <classes>
-            <class name="DimensionTests"/>
-            <class name="MotionTests"/>
+            <class name="CharacterTests"/>
+            <class name="EpisodeTests"/>
+            <class name="LocationTests"/>
         </classes>
     </test>
 </suite>
