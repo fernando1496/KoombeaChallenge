@@ -1,0 +1,600 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5821927583,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DimensionStepDefinitions.beforeClass()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "User goes to Dimensions, then select the length option and calculates a value using different inputs",
+        "description": "META-DATA: {\"dataProvider\":\"dimensionsValues\", \"dataProviderClass\":\"Data.DataProviders.class\"}",
+        "id": "automated-dimension-tests;user-goes-to-dimensions,-then-select-the-length-option-and-calculates-a-value-using-different-inputs;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4063840000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user selected \"Length\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Length",
+                  "offset": 15
+                }
+              ],
+              "location": "DimensionStepDefinitions.user_selected_length(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 37667,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "he select an option on first spinner",
+            "match": {
+              "location": "DimensionStepDefinitions.he_select_an_option_on_first_spinner()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22834,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "selects an option on the second spinner",
+            "match": {
+              "location": "DimensionStepDefinitions.selects_an_option_on_the_second_spinner()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17958,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the correct result must be displayed on the screen.",
+            "match": {
+              "location": "DimensionStepDefinitions.the_correct_result_must_be_displayed_on_the_screen()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@testOne"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4653207916,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DimensionStepDefinitions.beforeClass()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "User goes to Dimensions, then select the length option and calculates a value using different inputs",
+        "description": "META-DATA: {\"dataProvider\":\"dimensionsValues\", \"dataProviderClass\":\"Data.DataProviders.class\"}",
+        "id": "automated-dimension-tests;user-goes-to-dimensions,-then-select-the-length-option-and-calculates-a-value-using-different-inputs;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3512793167,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user selected \"Length\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Length",
+                  "offset": 15
+                }
+              ],
+              "location": "DimensionStepDefinitions.user_selected_length(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 46875,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "he select an option on first spinner",
+            "match": {
+              "location": "DimensionStepDefinitions.he_select_an_option_on_first_spinner()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 40209,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "selects an option on the second spinner",
+            "match": {
+              "location": "DimensionStepDefinitions.selects_an_option_on_the_second_spinner()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20834,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the correct result must be displayed on the screen.",
+            "match": {
+              "location": "DimensionStepDefinitions.the_correct_result_must_be_displayed_on_the_screen()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@testOne"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4730611500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DimensionStepDefinitions.beforeClass()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "User goes to Dimensions, then select the length option and calculates a value using different inputs",
+        "description": "META-DATA: {\"dataProvider\":\"dimensionsValues\", \"dataProviderClass\":\"Data.DataProviders.class\"}",
+        "id": "automated-dimension-tests;user-goes-to-dimensions,-then-select-the-length-option-and-calculates-a-value-using-different-inputs;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3856466333,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user selected \"Area\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Area",
+                  "offset": 15
+                }
+              ],
+              "location": "DimensionStepDefinitions.user_selected_length(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 67750,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "he select an option on first spinner",
+            "match": {
+              "location": "DimensionStepDefinitions.he_select_an_option_on_first_spinner()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22750,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "selects an option on the second spinner",
+            "match": {
+              "location": "DimensionStepDefinitions.selects_an_option_on_the_second_spinner()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16750,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the correct result must be displayed on the screen.",
+            "match": {
+              "location": "DimensionStepDefinitions.the_correct_result_must_be_displayed_on_the_screen()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@testOne"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4657421250,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DimensionStepDefinitions.beforeClass()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "User goes to Dimensions, then select the length option and calculates a value using different inputs",
+        "description": "META-DATA: {\"dataProvider\":\"dimensionsValues\", \"dataProviderClass\":\"Data.DataProviders.class\"}",
+        "id": "automated-dimension-tests;user-goes-to-dimensions,-then-select-the-length-option-and-calculates-a-value-using-different-inputs;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3901264292,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user selected \"Area\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Area",
+                  "offset": 15
+                }
+              ],
+              "location": "DimensionStepDefinitions.user_selected_length(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 37750,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "he select an option on first spinner",
+            "match": {
+              "location": "DimensionStepDefinitions.he_select_an_option_on_first_spinner()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32833,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "selects an option on the second spinner",
+            "match": {
+              "location": "DimensionStepDefinitions.selects_an_option_on_the_second_spinner()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 151167,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the correct result must be displayed on the screen.",
+            "match": {
+              "location": "DimensionStepDefinitions.the_correct_result_must_be_displayed_on_the_screen()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@testOne"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4618422000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DimensionStepDefinitions.beforeClass()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "User goes to Dimensions, then select the length option and calculates a value using different inputs",
+        "description": "META-DATA: {\"dataProvider\":\"dimensionsValues\", \"dataProviderClass\":\"Data.DataProviders.class\"}",
+        "id": "automated-dimension-tests;user-goes-to-dimensions,-then-select-the-length-option-and-calculates-a-value-using-different-inputs;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3490980959,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user selected \"Volume\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Volume",
+                  "offset": 15
+                }
+              ],
+              "location": "DimensionStepDefinitions.user_selected_length(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 50708,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "he select an option on first spinner",
+            "match": {
+              "location": "DimensionStepDefinitions.he_select_an_option_on_first_spinner()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17167,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "selects an option on the second spinner",
+            "match": {
+              "location": "DimensionStepDefinitions.selects_an_option_on_the_second_spinner()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28583,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the correct result must be displayed on the screen.",
+            "match": {
+              "location": "DimensionStepDefinitions.the_correct_result_must_be_displayed_on_the_screen()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@testOne"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4667355875,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DimensionStepDefinitions.beforeClass()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "User goes to Dimensions, then select the length option and calculates a value using different inputs",
+        "description": "META-DATA: {\"dataProvider\":\"dimensionsValues\", \"dataProviderClass\":\"Data.DataProviders.class\"}",
+        "id": "automated-dimension-tests;user-goes-to-dimensions,-then-select-the-length-option-and-calculates-a-value-using-different-inputs;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3832370708,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user selected \"Volume\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Volume",
+                  "offset": 15
+                }
+              ],
+              "location": "DimensionStepDefinitions.user_selected_length(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 54125,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "he select an option on first spinner",
+            "match": {
+              "location": "DimensionStepDefinitions.he_select_an_option_on_first_spinner()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17375,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "selects an option on the second spinner",
+            "match": {
+              "location": "DimensionStepDefinitions.selects_an_option_on_the_second_spinner()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31834,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the correct result must be displayed on the screen.",
+            "match": {
+              "location": "DimensionStepDefinitions.the_correct_result_must_be_displayed_on_the_screen()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@testOne"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4746185125,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DimensionStepDefinitions.beforeClass()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "User goes to Dimensions, then select the length option and calculates a value using different inputs",
+        "description": "META-DATA: {\"dataProvider\":\"dimensionsValues\", \"dataProviderClass\":\"Data.DataProviders.class\"}",
+        "id": "automated-dimension-tests;user-goes-to-dimensions,-then-select-the-length-option-and-calculates-a-value-using-different-inputs;;8",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3811490042,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user selected \"Volume\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Volume",
+                  "offset": 15
+                }
+              ],
+              "location": "DimensionStepDefinitions.user_selected_length(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 188375,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "he select an option on first spinner",
+            "match": {
+              "location": "DimensionStepDefinitions.he_select_an_option_on_first_spinner()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15709,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "selects an option on the second spinner",
+            "match": {
+              "location": "DimensionStepDefinitions.selects_an_option_on_the_second_spinner()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 152917,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the correct result must be displayed on the screen.",
+            "match": {
+              "location": "DimensionStepDefinitions.the_correct_result_must_be_displayed_on_the_screen()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@testOne"
+          }
+        ]
+      }
+    ],
+    "name": "Automated Dimension Tests",
+    "description": "",
+    "id": "automated-dimension-tests",
+    "keyword": "Feature",
+    "uri": "DimensionFeatureTests.feature"
+  }
+]
