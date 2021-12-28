@@ -36,3 +36,25 @@ CONFIGURATION
 
   * The projects need java 8 in order to run uiautomatorviewer, so JAVA_HOME variable need to be set to Java 8.
   * The default IP is used to run Appium service, if your service is in a different port, must be set at Base.java
+
+
+PROJECT EXECUTION GUIDE
+-------------
+The project helps keeping a high quality product, therefore the objectives of having an automation framework are the following:
+
+  * Ensure that the features of the App are working as expected.
+  * Ensure that nothing affected in a negative way after a deployment.
+  * Provide stakeholders with rapid and accurate feedback in the status of the product.
+  * Ensure that the endpoints are working properly.
+
+In order to fulfill these objectives, the automation framework need to be executed as described below:
+  * API regression tests must be executed 2 times a day to verify endpoints status.
+  * UI and API regression tests must be executed after a big deployment to the environments.
+  * UI regression tests must be executed before publishing the application.
+  * UI smoke tests must be executed after doing a change to a feature that may affect other features(I.E: left menu).
+
+After every execution reports will be created, they must be published and shared with the stakeholders and team working
+ in th project.
+
+In the case of a test failure, the test must be run isolated to verify if it was a flaky test or a bug 
+in the application. Data will be provided by the logs and the reports that are generated after every execution.
