@@ -47,4 +47,53 @@ public class DataProviders {
                 {"Acceleration", "Standard Gravity"}
         };
     }
+
+    @DataProvider(name = "leftMenuOptions")
+    public static Object[][] leftMenuOptions() {
+        return new Object[][]{
+                {"Favorite conversions"},
+                {"History"},
+                {"My conversions"},
+                {"Length"},
+                {"Area"},
+                {"Volume"},
+                {"Currency"},
+                {"Clothing and shoes"},
+                {"Cooking"},
+                {"Fuel consumption"},
+                {"Time"},
+                {"Pressure"},
+                {"Weight"},
+                {"Force"},
+                {"Torque"},
+                {"Speed"},
+                {"Acceleration"},
+                {"Angular speed"},
+                {"Flow rate"},
+                {"Density"},
+                {"Dynamic viscosity"},
+                {"Kinematic viscosity"},
+                {"Mineralization"},
+                {"Data storage"},
+                {"Data transfer"},
+                {"Energy"},
+                {"Power"},
+                {"Temperature"},
+                {"Electric charge"},
+                {"Electric current"},
+                {"Electrical resistance"},
+                {"Electric potential"},
+                {"Electric capacitance"},
+                {"Luminance"},
+                {"Illuminance"},
+                {"Radiation"},
+                {"Radioactivity"},
+                {"Magnetic field"},
+                {"Angle"},
+                {"Numbers"},
+                {"Units and fractions"},
+                {"Metrics"},
+                {"Astronomy distance"}
+        };
+    }
 }

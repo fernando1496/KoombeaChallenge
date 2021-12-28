@@ -24,4 +24,9 @@ public class LeftPanelObjects {
                         + "new UiSelector().text(\"" + menuOption + "\"));"));
         mobileELement.click();
     }
+
+    public String getTitle(String scenario) {
+        MobileElement mobileELement = myDriver.findElementByAndroidUIAutomator("text(\"" + scenario + "\")");
+        return mobileELement.getText();
+    }
 }

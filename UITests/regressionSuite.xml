@@ -4,8 +4,8 @@
 <suite name="Regression Suite">
     <test name="ChallengeUI">
         <classes>
-            <class name="DimensionTests"/>
-            <class name="MotionTests"/>
+
+            <class name="NavigationTests"/>
         </classes>
     </test>
 </suite>
